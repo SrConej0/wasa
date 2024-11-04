@@ -12,16 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Canvas1232"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCvaXEAKssvDhTupga3UuuKC46ydub9MNk" />
         <activity
-            android:name=".MainActivity6"
+            android:name=".MainActivity7"
             android:exported="true"
-            android:label="@string/title_activity_main6"
+            android:label="@string/title_activity_main7"
             android:theme="@style/Theme.Canvas1232">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true"
+            android:label="@string/title_activity_main6"
+            android:theme="@style/Theme.Canvas1232" />
         <activity
             android:name=".MainActivity5"
             android:exported="true"
