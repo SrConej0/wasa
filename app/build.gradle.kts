@@ -57,5 +57,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation (libs.maps.compose)
+    implementation(libs.maps.compose.v2114)
+    implementation(libs.play.services.maps)
 
 }
